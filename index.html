@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hadi Saadeh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 <body>
-    
+
+    <div class="mdc-card">
+        <div class="mdc-card__primary-action">
+          <div class="mdc-card__media mdc-card__media--square">
+            <div class="mdc-card__media-content">Title</div>
+          </div>
+          <!-- ... additional primary action content ... -->
+        </div>
+        <div class="mdc-card__actions">
+          <div class="mdc-card__action-buttons">
+            <button class="mdc-button mdc-card__action mdc-card__action--button">
+              <div class="mdc-button__ripple"></div>
+              <span class="mdc-button__label">Project</span>
+            </button>
+            <button class="mdc-button mdc-card__action mdc-card__action--button">
+              <div class="mdc-button__ripple"></div>
+              <span class="mdc-button__label">Repo</span>
+            </button>
+          </div>
+          <!-- <div class="mdc-card__action-icons">
+            <button class="material-icons mdc-icon-button mdc-card__action mdc-card__action--icon" title="Share">share</button>
+            <button class="material-icons mdc-icon-button mdc-card__action mdc-card__action--icon" title="More options">more_vert</button>
+          </div> -->
+        </div>
+      </div>
+
+    <script src="data.js"></script>
+
+    <script>
+        projects.forEach(project => {
+            
+        });
+    </script>
 </body>
 </html>
